@@ -1,0 +1,17 @@
+{
+  "extends": "@artisthubcrm/config/tsconfig/base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "incremental": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules"]
+}

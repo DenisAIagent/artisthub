@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm dev:*)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(npm install sqlite3 sequelize)",
+      "Bash(pnpm add:*)",
+      "Bash(node:*)",
+      "Bash(git remote add:*)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
