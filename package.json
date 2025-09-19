@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "start": "turbo run start",
+    "start": "pnpm --filter @artisthub/web start",
     "lint": "turbo run lint",
     "clean": "turbo run clean && rm -rf node_modules"
   },

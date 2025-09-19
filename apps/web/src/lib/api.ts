@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-// API Configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8002';
-const API_PREFIX = '/api/v1';
+// API Configuration - Use Next.js API routes
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || '';
+const API_PREFIX = '/api';
 
 // Create axios instance
 export const apiClient = axios.create({

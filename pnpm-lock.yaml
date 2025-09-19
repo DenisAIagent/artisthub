@@ -180,6 +180,12 @@ importers:
       axios:
         specifier: ^1.6.7
         version: 1.12.2
+      bcryptjs:
+        specifier: ^2.4.3
+        version: 2.4.3
+      jsonwebtoken:
+        specifier: ^9.0.2
+        version: 9.0.2
       next:
         specifier: ^14.1.0
         version: 14.2.32(react-dom@18.3.1)(react@18.3.1)
@@ -196,6 +202,12 @@ importers:
       '@artisthub/config':
         specifier: workspace:*
         version: link:../../packages/config
+      '@types/bcryptjs':
+        specifier: ^2.4.6
+        version: 2.4.6
+      '@types/jsonwebtoken':
+        specifier: ^9.0.6
+        version: 9.0.10
       '@types/node':
         specifier: ^20.11.17
         version: 20.19.16

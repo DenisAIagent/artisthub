@@ -16,6 +16,8 @@
     "@tanstack/react-query": "^5.25.0",
     "@tanstack/react-query-devtools": "^5.89.0",
     "axios": "^1.6.7",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
     "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,6 +25,8 @@
   },
   "devDependencies": {
     "@artisthub/config": "workspace:*",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.11.17",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
